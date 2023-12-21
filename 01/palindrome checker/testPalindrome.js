@@ -28,14 +28,6 @@ function makeId(length) {
     return pal;    
 }
 
-let start = Date.now();
-let String=megaPalindrome(30000);
-let timeTaken = Date.now() - start;
-console.log("Total time taken : " + timeTaken + " milliseconds");
-let secondstart = Date.now();
-console.log(palindromeTwo(String));
-let secondTimeTaken = Date.now() - secondstart;
-console.log("Total time taken : " + secondTimeTaken + " milliseconds");
 
 
 
