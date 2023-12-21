@@ -32,7 +32,7 @@ function makeId(length) {
 
 
 let start = Date.now();
-let String=megaPalindrome(30000);
+let String=megaPalindrome(50000000);
 let timeTaken = Date.now() - start;
 console.log("Total time taken : " + timeTaken + " milliseconds");
 let secondstart = Date.now();
